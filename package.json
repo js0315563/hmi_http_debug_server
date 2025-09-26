@@ -1,0 +1,18 @@
+{
+  "name": "hmi-http-debug-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "hmi-http-debug": "./app/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lowdb": "^7.0.1"
+  }
+}

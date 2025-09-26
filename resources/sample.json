@@ -1,0 +1,11 @@
+{
+    "sample1": [
+        {
+            "GUID": 1
+        },
+        {
+            "GUID": 2
+        }
+    ],
+    "sample2": "sample2"
+}
