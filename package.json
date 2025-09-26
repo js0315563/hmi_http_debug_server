@@ -1,6 +1,6 @@
 {
   "name": "hmi-http-debug-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "hmi-http-debug": "./app/cli.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.1.0",
     "lowdb": "^7.0.1"
