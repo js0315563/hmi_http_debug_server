@@ -1,3 +1,5 @@
 import {runHmiDebugServer} from './app/server.js';
 
-runHmiDebugServer('./resources/sample.json');
+const args = process.argv.slice(2);
+
+runHmiDebugServer(args[0] ?? './resources/sample.json');
